@@ -1,7 +1,10 @@
 name: Deploy Next App
 on:
   push:
-    branches: -main
+    branches:
+      -main
+    paths-ignore:
+      - '.github/workflows/*'
 jobs:
   lint:
     runs-on: ubuntu-latest
