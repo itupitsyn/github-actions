@@ -2,7 +2,7 @@ name: Deploy Next App
 on:
   push:
     branches:
-      -main
+      - main
     # paths-ignore:
     #   - '.github/workflows/*'
 jobs:
