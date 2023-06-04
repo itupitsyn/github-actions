@@ -1,5 +1,7 @@
-name: Lint Next App
-on: push
+name: Deploy Next App
+on:
+  push:
+    branches: -main
 jobs:
   lint:
     runs-on: ubuntu-latest
