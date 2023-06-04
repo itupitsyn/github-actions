@@ -1,4 +1,4 @@
-name: Test Next App
+name: Lint Next App
 on: push
 jobs:
   lint:
